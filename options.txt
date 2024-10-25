@@ -47,7 +47,7 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","fabric","seasons:seasonal_lush_caves","presencefootsteps:default_sound_pack","minecraft:supporteatinganimation","Moonlight Mods Dynamic Assets","file/xali\u0027s Enhanced Vanilla -1.11.2b-rev.54d51d4.zip","file/Fancy Crops v1.0 f5-34.zip","file/Unique Dark 1.20.1 (free).zip","black_icons","file/Ashen_Custom_Font.zip","file/Artisans_Armory_2-0.zip","file/ParallaxSounds.zip"]
+resourcePacks:["vanilla","fabric","file/xali\u0027s Enhanced Vanilla -1.11.2b-rev.54d51d4.zip","file/Fancy Crops v1.0 f5-34.zip","file/Unique Dark 1.20.1 (free).zip","file/Ashen_Custom_Font.zip","file/Artisans_Armory_2-0.zip","file/ParallaxSounds.zip","seasons:seasonal_lush_caves","minecraft:supporteatinganimation","presencefootsteps:default_sound_pack"]
 incompatibleResourcePacks:["file/xali\u0027s Enhanced Vanilla -1.11.2b-rev.54d51d4.zip","file/Fancy Crops v1.0 f5-34.zip","file/Ashen_Custom_Font.zip","file/Artisans_Armory_2-0.zip","file/ParallaxSounds.zip"]
 lastServer:
 lang:en_us
@@ -77,7 +77,7 @@ tutorialStep:none
 mouseWheelSensitivity:1.0
 rawMouseInput:true
 glDebugVerbosity:1
-skipMultiplayerWarning:false
+skipMultiplayerWarning:true
 skipRealms32bitWarning:false
 hideMatchedNames:true
 joinedFirstServer:true
@@ -125,24 +125,24 @@ key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
 key_key.dynamic_fps.toggle_forced:key.keyboard.unknown
 key_key.dynamic_fps.toggle_disabled:key.keyboard.unknown
-key_key.emotecraft.fastchoose:key.keyboard.j
+key_key.emotecraft.fastchoose:key.keyboard.b
 key_key.emotecraft.stop:key.keyboard.unknown
 key_net.clayborn.accurateblockplacement.togglevanillaplacement:key.keyboard.unknown
 key_key.anim_guns.reloadtoggle:key.keyboard.r
-key_key.anim_guns.aimtoggle:key.keyboard.y
+key_key.anim_guns.aimtoggle:key.keyboard.minus
 key_key.azurelib.reload:key.keyboard.minus
 key_key.azurelib.scope:key.keyboard.minus
-key_key.azurelib.fire:key.keyboard.minus
-key_bedrockIfy.key.settings:key.keyboard.insert
+key_key.azurelib.fire:key.keyboard.unknown
+key_bedrockIfy.key.settings:key.keyboard.minus
 key_keybinds.bettercombat.feint:key.keyboard.unknown
 key_keybinds.bettercombat.toggle_mine_with_weapons:key.keyboard.unknown
 key_key.crawl:key.keyboard.c
 key_key.entityculling.toggle:key.keyboard.unknown
 key_key.fabricskyboxes.toggle:key.keyboard.unknown
 key_key.fabricskyboxes.toggle.debug_hud:key.keyboard.f12
-key_key.fabrictailor.toggle_skin_gui:key.keyboard.left.bracket
+key_key.fabrictailor.toggle_skin_gui:key.keyboard.minus
 key_key.firstperson.toggle:key.keyboard.f6
-key_key.fog.toggle:key.keyboard.unknown
+key_key.inmis.open_backpack:key.keyboard.b
 key_inventorymanagement.keybind.position_edit.player:key.keyboard.minus
 key_inventorymanagement.keybind.position_edit.container:key.keyboard.minus
 key_key.jei.toggleOverlay:key.keyboard.o
@@ -177,15 +177,15 @@ key_key.jei.nextCategory:key.keyboard.page.down
 key_key.jei.closeRecipeGui:key.keyboard.escape
 key_key.jei.copy.recipe.id:key.keyboard.unknown
 key_key.modmenu.open_menu:key.keyboard.unknown
-key_key.niftycarts.action:key.keyboard.u
+key_key.niftycarts.action:key.keyboard.h
 key_key.niftycarts.slow:key.keyboard.minus
 key_key.passableleaves.fall_through_leaves:key.keyboard.unknown
 key_key.presencefootsteps.settings:key.keyboard.f10
 key_key.presencefootsteps.toggle:key.keyboard.unknown
-key_seamless_loading_screen.keybind.config:key.keyboard.minus
-key_desc.seasonhud.keybind.options:key.keyboard.home
+key_seamless_loading_screen.keybind.config:key.keyboard.g
+key_desc.seasonhud.keybind.options:key.keyboard.minus
 key_key.simplehudenhanced.toggle_hud:key.keyboard.grave.accent
-key_key.smallships.ship_sail:key.keyboard.l
+key_key.smallships.ship_sail:key.keyboard.u
 key_treechop.key.toggle_chopping:key.keyboard.unknown
 key_treechop.key.toggle_felling:key.keyboard.unknown
 key_treechop.key.cycle_sneak_behavior:key.keyboard.unknown
@@ -201,7 +201,7 @@ key_key.voice_chat_group:key.keyboard.minus
 key_key.voice_chat_toggle_recording:key.keyboard.unknown
 key_key.voice_chat_adjust_volumes:key.keyboard.unknown
 key_gui.xaero_open_map:key.keyboard.m
-key_gui.xaero_open_settings:key.keyboard.right.bracket
+key_gui.xaero_open_settings:key.keyboard.minus
 key_gui.xaero_map_zoom_in:key.keyboard.unknown
 key_gui.xaero_map_zoom_out:key.keyboard.unknown
 key_gui.xaero_quick_confirm:key.keyboard.right.shift
@@ -210,7 +210,6 @@ key_gui.xaero_toggle_tracked_players:key.keyboard.unknown
 key_gui.xaero_toggle_pac_chunk_claims:key.keyboard.unknown
 key_zoomify.key.zoom:key.keyboard.z
 key_zoomify.key.zoom.secondary:key.keyboard.f9
-key_key.backpack:key.keyboard.b
 key_iris.keybind.reload:key.keyboard.minus
 key_iris.keybind.toggleShaders:key.keyboard.k
 key_iris.keybind.shaderPackSelection:key.keyboard.o
